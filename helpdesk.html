@@ -17,7 +17,7 @@
     <!--form start here-->
     <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
 
-        <!--1st field for student info-->
+        <!--1st field for student id,first name, last name, all required and patterned-->
         <fieldset>
             <legend>Student details</legend>
             <label for="student_id">Student ID</label>
@@ -28,7 +28,7 @@
             <input type="text" id="Fname" name="family_name" pattern="[a-zA-Z]{1,15}" placeholder="Enter Family Name" required>
         </fieldset>
 
-        <!--2nd field for sub and tutor-->
+        <!--2nd field for subject(same 'name') and tutor, both required -->
         <fieldset>
             <legend>Your unit</legend>
             <input type="radio" id="1st" name="subject" value="COS10004" required>
@@ -49,7 +49,7 @@
             </select>
         </fieldset>
 
-        <!--3rd field for the issue the student have-->
+        <!--3rd field for the issue the student have, skills array hold the skills HTML checked,-->
         <fieldset>
             <legend>Issue</legend>
             <label for="html">HTML</label>
@@ -83,7 +83,7 @@
         </fieldset>
         -->
         
-
+        <!--4th field for date and time both required-->
         <fieldset>
             <legend>Preferred Date/Time</legend>
             <label for="Date">Date</label>
